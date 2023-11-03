@@ -1,1 +1,31 @@
+body {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  }
 
+  .x {
+  color: red;
+  }
+
+  .o {
+  color: blue;
+  }
+  
+  #board {
+    font: 85px arial, sans-serif;
+    margin: 3px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  
+  #board > div {
+    background-color: #fff;
+    border: 1px solid #00FFFF;
+    font-size: 72px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
